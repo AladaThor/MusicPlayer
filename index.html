@@ -1,1 +1,58 @@
-軒正嗨
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $("#jquery_jplayer_1").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            title: "Bubble",
+            m4a: "http://www.jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
+            oga: "http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+          });
+        },
+        cssSelectorAncestor: "#jp_container_1",
+        swfPath: "/js",
+        supplied: "m4a, oga",
+        useStateClassSkin: true,
+        autoBlur: false,
+        smoothPlayBar: true,
+        keyEnabled: true,
+        remainingDuration: true,
+        toggleDuration: true
+      });
+    });
+  </script>
+</head>
+<body>
+    <div class="item-indicators">
+        <h1>歌單</h1>
+        <ul>
+            <li>最新音樂</li>
+            <li>歌手</li>
+            <li>專輯</li>
+            <li>排行榜</li>
+            <li>類型</li>
+            <li>瀏覽歌單</li>
+        </ul>
+    </div>
+    <div>
+        <h3>精選歌單</h3>
+        <img src="https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/2b3f6ff00db7a1efae21d85cfb8995eaff2da8d8.png">
+        <img src="https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/2b3f6ff00db7a1efae21d85cfb8995eaff2da8d8.png">
+        <img>
+        <img>
+        <h3>本週推薦</h3>
+        <img>
+        <img>
+        <img>
+        <img>
+        <h3>自訂歌單</h3>
+        <img>
+    </div>
+</body>
+</html>
