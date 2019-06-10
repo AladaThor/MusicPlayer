@@ -1,7 +1,15 @@
-<style type="text/css">
-<!-- 
-.item-indicators ul li {
-　display:inline;
+#DIV1{
+width:70px;
+line-height:10px;
+padding:20px;
+border:2px blue solid;
+margin-right:10px;
+float:left;
 }
--->
-</style>
+#DIV2{
+width:200px;
+line-height:50px;
+padding:20px;
+border:2px green solid;
+float:left;
+}
