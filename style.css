@@ -5,40 +5,47 @@ img{
 	 margin-right:20px;
 }
 #TWO{
-width:35px;
-line-height:10px;
-padding:20px;
-//border:2px blue solid;
-margin-right:10px;
-margin-top: 25px;
-float:left;
+    width:35px;
+    line-height:10px;
+    padding:20px;
+    //border:2px blue solid;
+    margin-right:10px;
+    margin-top: 25px;
+    float:left;
+    color: floralwhite;
 }
 #Title{
-width:70px;
-line-height:10px;
-padding:20px;
-//border:2px green solid;
-margin-right:10px;
-float:left;
+    width:70px;
+    line-height:10px;
+    padding:20px;
+    //border:2px green solid;
+    margin-right:10px;
+    float:left;
+    color: floralwhite;
 }
 #FOUR{
-width:70px;
-line-height:10px;
-padding:20px;
-//border:2px blue solid;
-margin-right:10px;
-margin-top: 25px;
-float:left;
+    width:70px;
+    line-height:10px;
+    padding:20px;
+    //border:2px blue solid;
+    margin-right:10px;
+    margin-top: 25px;
+    float:left;
+    color: floralwhite;
 }
 #IMG{
 	margin-left:15px;
 }
+#IMG h3{
+    color: floralwhite;
+}
+
 #ICON{
-width:2px;
-line-height:10px;
-padding:20px;
-//border:2px blue solid;
-margin-right:10px;
-margin-top: 25px;
-float:right;
+    width:2px;
+    line-height:10px;
+    padding:20px;
+    //border:2px blue solid;
+    margin-right:10px;
+    margin-top: 25px;
+    float:right;
 }
