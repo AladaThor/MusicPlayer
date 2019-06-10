@@ -1,15 +1,44 @@
-#DIV1{
+body{
+	background-color:gray;
+}
+img{
+	 margin-right:20px;
+}
+#TWO{
+width:35px;
+line-height:10px;
+padding:20px;
+//border:2px blue solid;
+margin-right:10px;
+margin-top: 25px;
+float:left;
+}
+#Title{
 width:70px;
 line-height:10px;
 padding:20px;
-border:2px blue solid;
+//border:2px green solid;
 margin-right:10px;
 float:left;
 }
-#DIV2{
-width:200px;
-line-height:50px;
+#FOUR{
+width:70px;
+line-height:10px;
 padding:20px;
-border:2px green solid;
+//border:2px blue solid;
+margin-right:10px;
+margin-top: 25px;
 float:left;
+}
+#IMG{
+	margin-left:15px;
+}
+#ICON{
+width:2px;
+line-height:10px;
+padding:20px;
+//border:2px blue solid;
+margin-right:10px;
+margin-top: 25px;
+float:right;
 }
